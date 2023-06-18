@@ -1,0 +1,28 @@
+@import '../../colors';
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  padding:  2rem;
+
+  background-color: $saab-black;
+  h1 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgba($color: #ffffff, $alpha: 0.04);
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+}

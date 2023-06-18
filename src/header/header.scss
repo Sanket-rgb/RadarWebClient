@@ -1,0 +1,15 @@
+@import "../colors";
+
+.header-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 64px;
+  background-color: $saab-black;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.header-logo {
+  height: 48px;
+}
